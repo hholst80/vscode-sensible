@@ -1,0 +1,23 @@
+[
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.quickOpen",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.quickSwitchWindow"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.moveToEditor"
+    }
+]
